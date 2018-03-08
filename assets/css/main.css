@@ -205,15 +205,6 @@ a:active {
     width:400px;
 }
 
-.submitbutton{
-    float:left;
-    position:relative;
-    margin-left:0;
-    left:0;
-    bottom:0;
-
-}
-
 .object{
     position:relative;
     width:250px;
@@ -250,3 +241,19 @@ a:active {
 .container{
     max-width:960px;
 }
+
+
+input[type=submit] {
+    background-color: #61A8A4;
+    color: white;
+    font-size:1em;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    float: left;
+}
+
+input[type=submit]:hover {
+    background-color: #61A8A4;
+}
+
